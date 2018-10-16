@@ -2,7 +2,7 @@
 
 A fullscreen loop effect that shows a preview of images when hovering a menu item. We use [TweenMax](https://greensock.com/tweenmax) for the animations.
 
-![Fullscreen Hover Loop](https://tympanus.net/codrops/wp-content/uploads/2018/10/FullscreenLoop.gif)
+![Fullscreen Hover Loop](https://tympanus.net/codrops/wp-content/uploads/2018/10/FullscreenLoop_featured.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36172)
 
