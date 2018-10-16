@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fullscreen Hover Loop Effect | Codrops</title>
+		<meta name="description" content="A fullscreen loop effect that shows a preview of images when hovering a menu item." />
+		<meta name="keywords" content="fullscreen, loop, preview, images, web development, template, javascript" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="loading">
+		<svg class="hidden">
+			<symbol id="icon-arrow" viewBox="0 0 24 24">
+				<title>arrow</title>
+				<polygon points="6.3,12.8 20.9,12.8 20.9,11.2 6.3,11.2 10.2,7.2 9,6 3.1,12 9,18 10.2,16.8 "/>
+			</symbol>
+			<symbol id="icon-drop" viewBox="0 0 24 24">
+				<title>drop</title>
+				<path d="M12,21c-3.6,0-6.6-3-6.6-6.6C5.4,11,10.8,4,11.4,3.2C11.6,3.1,11.8,3,12,3s0.4,0.1,0.6,0.3c0.6,0.8,6.1,7.8,6.1,11.2C18.6,18.1,15.6,21,12,21zM12,4.8c-1.8,2.4-5.2,7.4-5.2,9.6c0,2.9,2.3,5.2,5.2,5.2s5.2-2.3,5.2-5.2C17.2,12.2,13.8,7.3,12,4.8z"/><path d="M12,18.2c-0.4,0-0.7-0.3-0.7-0.7s0.3-0.7,0.7-0.7c1.3,0,2.4-1.1,2.4-2.4c0-0.4,0.3-0.7,0.7-0.7c0.4,0,0.7,0.3,0.7,0.7C15.8,16.5,14.1,18.2,12,18.2z"/>
+			</symbol>
+		</svg>
+		<main>
+			<h2 class="title"><a href="#content-main">Alexandra Sokolov</a></h2>
+			<nav class="menu">
+				<a href="#content-photography" class="menu__item">Photography</a>
+				<a href="#content-exhibitions" class="menu__item">Exhibitions</a>
+				<a href="#content-contact" class="menu__item">Contact</a>
+			</nav>
+			<div class="content content--main content--current" id="content-main">
+				<div class="content__text">
+					<header class="codrops-header">
+						<div class="codrops-links">
+							<a class="codrops-icon codrops-icon--prev" href="https://tympanus.net/Development/MultiboxMenu/" title="Previous Demo"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+							<a class="codrops-icon codrops-icon--drop" href="https://tympanus.net/codrops/?p=36172" title="Back to the article"><svg class="icon icon--drop"><use xlink:href="#icon-drop"></use></svg></a>
+						</div>
+						<h1 class="codrops-header__title">Fullscreen Hover Loop Effect</h1>
+						<span class="info">Hover &amp; click "photography"</span>
+					</header>
+					<p class="content__paragraph">Hello stranger, my name is <a href="#">Alexandra</a> and I'm a <a href="#">photographer</a> from Moscow. <br>I'm also a passionate long distance runner with a weakness for <a href="#">good pizza</a>. Makin their way the only way they know how. That's just a little bit more than the law will allow.</p>
+					<a class="pater" href="https://synd.co/2yprBC7" rel="nofollow" onClick="recordOutboundLink(this, 'Outbound Links', 'HelloSign16102018');return false;">
+						<img class="pater__img" src="pater/hellosign.png" alt="HelloSign API" />
+						<div class="pater__text">
+							<h3 class="pater__title">The Most Flexible eSign API</h3>
+							<p class="pater__description">HelloSign API allows you to collect legally binding signatures from your own app.</p>
+						</div>
+					</a>
+					<p class="content__paragraph">They were four men living all together yet they were all alone. Sunny Days sweepin' the clouds away. On my way to where the air is sweet. Can you tell me how to get how to get to Sesame Street! Come and dance on our floor. Take a step that is new. We've a loveable space that needs your face threes company too.</p>
+					<p class="content__paragraph">Come and knock on our door. We've been waiting for you. Where the kisses are hers and hers and his. Three's company too. Their house is a museum where people come to see ‘em. They really are a scream the Addams Family. </p>
+					<p class="content__paragraph">Till the one day when the lady met this fellow and they knew it was much more than a hunch. A man is born he's a man of means. Then along come two they got nothin' but their jeans. So lets make the most of this beautiful day. Since we're together.</p>
+				</div>
+				<aside class="content__sidebar">
+					<blockquote class="quote">
+						<h4 class="quote__author">Susan Sontag</h4>
+						<p class="quote__text">
+							“All photographs are memento mori.
+							To take a photograph is to participate
+							in another person’s (or thing’s) mortality,
+							vulnerability, mutability.
+							Precisely by slicing out this moment
+							and freezing it, all photographs testify
+							to time’s relentless melt.”
+						</p>
+					</blockquote>
+					<blockquote class="quote">
+						<h4 class="quote__author">Elliott Erwitt</h4>
+						<p class="quote__text">
+							“To me, photography is an art of
+							observation.
+							It’s about finding something interesting
+							in an ordinary place…
+							I’ve found it has little to do with the
+							things you see and everything to do
+							with the way you see them.”
+						</p>
+					</blockquote>
+					<blockquote class="quote">
+						<h4 class="quote__author">Henri Cartier-Bresson</h4>
+						<p class="quote__text">
+							“To photograph is to hold one's breath,
+							when all faculties converge to capture
+							fleeting reality. It's at that precise moment
+							that mastering an image becomes a
+							great physical and intellectual joy.”
+						</p>
+					</blockquote>
+					<div class="social">
+						<span class="social__title">Email</span>
+						<a href="#" class="social__link">asokolov@mail.com</a>
+					</div>
+					<div class="social">
+						<span class="social__title">Twitter</span>
+						<a href="#" class="social__link">@asokolov</a>
+					</div>
+					<div class="social">
+						<span class="social__title">Flickr</span>
+						<a href="#" class="social__link">Alexsokolov</a>
+					</div>
+				</aside>
+			</div><!-- /content--about -->
+			<div class="content content--photography" id="content-photography">
+				<aside class="category">
+					<button class="backbutton"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></button>
+					<ul class="category__list">
+						<li class="category__list-item category__list-item--current">Portraits (8)</li>
+						<li class="category__list-item">Landscape (12)</li>
+						<li class="category__list-item">Architecture (9)</li>
+						<li class="category__list-item">Sports (10)</li>
+						<li class="category__list-item">Weddings (19)</li>
+					</ul>
+					<span class="category__years">2001 &mdash; 2018</span>
+				</aside>
+				<div class="grid">
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/1.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2018</span>
+						<h3 class="grid__item-title"><strong>Look at me</strong> An exploration of the mind</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/6.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2017</span>
+						<h3 class="grid__item-title"><strong>Versatile</strong> Introspection and psyche</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/4.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2017</span>
+						<h3 class="grid__item-title"><strong>Profile</strong> Faces and stories</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/5.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2016</span>
+						<h3 class="grid__item-title"><strong>Somewhere</strong> Finding inspiration in the rare places</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/3.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2016</span>
+						<h3 class="grid__item-title"><strong>The Set</strong> Model works</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/7.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2015</span>
+						<h3 class="grid__item-title"><strong>Stories</strong> Important milestones for humanity</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/2.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2015</span>
+						<h3 class="grid__item-title"><strong>The Past</strong> Culture trip</h3>
+					</a>
+					<a class="grid__item">
+						<div class="grid__item-wrap">
+							<div class="grid__item-img" style="background-image: url(img/8.jpg);"></div>
+						</div>
+						<span class="grid__item-year">2014</span>
+						<h3 class="grid__item-title"><strong>Happiness</strong> The world of Candy</h3>
+					</a>
+				</div><!-- /grid -->
+			</div><!-- /content--works -->
+			<footer class="footer">
+				<div class="footer__left">©Alexandra Sokolov <br>2018</div>
+				<div class="footer__right">
+					<div class="footer__column">
+						<a href="#">Stories &amp; Awards</a>
+						<a href="#">Exhibitions</a>
+						<a href="#">Contact</a>
+					</div>
+					<div class="footer__column">
+						<a href="#">Case Studies</a>
+						<a href="#">Advertisement</a>
+						<a href="#">Friends &amp; Clients</a>
+					</div>
+					<div class="footer__column">
+						<span class="address">
+							Ulitsa Lva Tolstogo 46<br>
+							Moscow, Russia<br>
+							+7 495 119-27-77
+						</span>
+					</div>
+				</div>
+			</footer>
+		</main>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<!--https://github.com/gre/bezier-easing-->
+		<script src="js/bezier-easing.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/demo.js"></script>
+	</body>
+</html>
